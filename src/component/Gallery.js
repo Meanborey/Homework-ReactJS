@@ -141,6 +141,17 @@ export default function Gallery() {
                 </div>
                 </div>
                </div>
+               {/* Feedback */}
+               <from><div class="col-mb-3 ">
+                <label for="validationTextarea" class="form-label"></label>
+                <textarea class="form-control is-primary " id="validationTextarea" placeholder="Feedback" required></textarea>
+                <div class="invalid-feedback">
+                Please enter a message for feedback.
+                </div>
+                <div class="mb-3">
+                <button class="btn btn-primary" type="submit" disabled>Submit</button>
+            </div>
+            </div></from>
                {/* footer */}
                <div class="container py-5">
                 <div class="row">
